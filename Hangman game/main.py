@@ -529,11 +529,11 @@ RULES:--
 chosen_word = random.choice(word_list)
 # CREATE A VARIABLE PLACEHOLDER
 placeholder=""
+
 # FIRST PLACE '_' FOR EVERY LETTER IN THE CHOSEN WORD IN PLACEHOLDER
 for position in range(0,len(chosen_word)-1):
     placeholder += "_"
 print(placeholder)
-print(chosen_word)
 
 # CREATE A VARIABLE FOR GAME OVER
 game_over = False
